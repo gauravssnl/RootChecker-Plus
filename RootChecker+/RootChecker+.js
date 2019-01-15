@@ -82,7 +82,7 @@ text = app.CreateText( msg, 1.0, -1, "MultiLine");
  layDev.AddChild( devText );
  layM.AddChild( layDev );
 
- app.ShowPopup( "Press the FAButton to add notes" );
+ app.ShowPopup( "Press the list icon for menu" );
  //Start timer to rotate top image.
 setInterval( "RotateImage()", 10 );
 }
